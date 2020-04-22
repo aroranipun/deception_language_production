@@ -38,10 +38,17 @@ Using sklearn GradientBoostingClassifier the model gives ~95% accurate predictio
 
 ## Bibliogprahy
 Bond, C. F., & DePaulo, B. M. (2006). Accuracy of deception judgments. In Personality and Social Psychology Review. https://doi.org/10.1207/s15327957pspr1003_2
+
 Derrick, D. C., Meservy, T. O., Jenkins, J. L., Burgoon, J. K., & Nunamaker Jr., J. F. (2013). Detecting Deceptive Chat-Based Communication Using Typing Behavior and Message Cues. ACM Trans. Manage. Inf. Syst., 4(2), 9:1--9:21. https://doi.org/10.1145/2499962.2499967
+
 Grimes, G. M., Jenkins, J. L., & Valacich, J. S. (2013). Assessing credibility by monitoring changes in typing behavior: The keystroke dynamics deception detection model. Hawaii International Conference on System Sciences, Deception Detection Symposium.
+
 Hauch, V., Blandón-Gitlin, I., Masip, J., & Sporer, S. L. (2014). Are Computers Effective Lie Detectors? A Meta-Analysis of Linguistic Cues to Deception. Personality and Social Psychology Review, 19(4), 307–342. https://doi.org/10.1177/1088868314556539
+
 Monaro, M., Businaro, M., Spolaor, R., Li, Q. Q., Conti, M., Gamberini, L., & Sartori, G. (2019). The online identity detection via keyboard dynamics. Advances in Intelligent Systems and Computing. https://doi.org/10.1007/978-3-030-02683-7_24
+
 Monaro, M., Galante, C., Spolaor, R., Li, Q. Q., Gamberini, L., Conti, M., & Sartori, G. (2018). Covert lie detection using keyboard dynamics. Scientific Reports, 8(1), 1976. https://doi.org/10.1038/s41598-018-20462-6
+
 Monaro, M., Gamberini, L., & Sartori, G. (2017). The detection of faked identity using unexpected questions and mouse dynamics. PLoS ONE. https://doi.org/10.1371/journal.pone.0177851
+
 Newman, M. L., Pennebaker, J. W., Berry, D. S., & Richards, J. M. (2003). Lying Words: Predicting Deception from Linguistic Styles. Personality and Social Psychology Bulletin, 29(5), 665–675. https://doi.org/10.1177/0146167203029005010
