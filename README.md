@@ -1,4 +1,5 @@
 # deception_language_production
+[Link to Jupyter Notebook] (https://github.com/aroranipun/deception_language_production/blob/master/prediction.ipynb)
 
 ## Motivation
 Fraud detection currently relies on financial and physical signals like credit transactions, on-site claim investigation and analysis of networked association between various third parties to identify insurance claim. All of these analyses are post-factum. The goal of this experiment is to identify interpersonal, cognitive signals which are captured digitally to identify attempts of deception as they happen.
