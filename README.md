@@ -27,7 +27,10 @@ The linguistic prompt we use in our claim’s process is following:
 For the first round of data collection, we decided to keep the prompts as close as possible and only vary the memory that the prompt would engage- conceptual vs episodic. Our intention is to include more prompts which vary across these moderating factors to see their effect of the cognitive signals generated from attempts to lie in the responses.
 
 ## Method
-Individual keystrokes were collected using a javascript app and R was used to engineer features like press and fly time between strokes, bulk and discrete deletions, etc. Furthermore, the literature in deception psychology points to changes in language as well. I decided to use udpipe library in R for Natural Language Processing of the data and create features like unique word ratio, usage of first-person pronouns, etc. I have collected just over 70 individuals to respond with avg length of 100 characters. Using sklearn GradientBoostingClassifier the model gives 95% accurate predictions
+Individual keystrokes were collected using a javascript app and R was used to engineer features like press and fly time between strokes, bulk and discrete deletions, etc. Furthermore, the literature in deception psychology points to changes in language as well. I decided to use udpipe library in R for Natural Language Processing of the data and create features like unique word ratio, usage of first-person pronouns, etc. I have collected just over 70 individuals to respond with avg length of 100 characters. Using sklearn GradientBoostingClassifier the model gives ~95% accurate predictions
+
+![Error_rate_over_multiple_trainings](images/training_results.PNG)
+
 
 ## Bibliogprahy
 Bond, C. F., & DePaulo, B. M. (2006). Accuracy of deception judgments. In Personality and Social Psychology Review. https://doi.org/10.1207/s15327957pspr1003_2
