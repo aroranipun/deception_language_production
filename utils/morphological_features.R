@@ -2,14 +2,17 @@
 #---------------------------------------
 library(udpipe)
 library(uuid)
-if(!file.exists("utils/r/english-ewt-ud-2.4-190531.udpipe")){
+
+udpipe = list.files(path = "utils/r/", pattern = "\\.udpipe$",full.names = T)
+
+if(length(udpipe)== 0){
   udpipe_download_model(language = c("english"),model_dir = "utils/r/")
 }
 
 #text = "Alice took up the fan and gloves, and, as the hall was very hot, she kept fanning herself all the time she went on talking: `Dear, dear! How queer everything is to-day! And yesterday things went on just as usual. I wonder if I've been changed in the night? Let me think: was I the same when I got up this morning? I almost think I can remember feeling a little different. But if I'm not the same, the next question is, Who in the world am I? Ah, that's the great puzzle!' And she began thinking over all the children she knew that were of the same age as herself, to see if she could have been changed for any of them."
 #text = "Apple of my eye"
 
-udmodel <- udpipe_load_model(file ="utils/r/english-ewt-ud-2.4-190531.udpipe")
+udmodel <- udpipe_load_model(file = udpipe)
 
 
 text = "I went go Greece for a few days after a trip for work; ended up going to one of the many small island called Ydra, but I call it the island of cats as there are so many cats on this island (I found out later that there is even a book published about them!); everything on that island was wonderful, but the cats were such a nice bonus as they are (mostly) wonderful creatures.	" 
