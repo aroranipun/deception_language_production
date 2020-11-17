@@ -32,7 +32,7 @@ Individual keystrokes were collected using a javascript app and R was used to en
 
 To account for between subject variation, I user the first true response as a control and final features were computed as differences of the features for second and third responses (true response and false response respectively) from those of first response.
 
-Using sklearn GradientBoostingClassifier the model gives ~95% accurate predictions
+Using sklearn GradientBoostingClassifier the model gives ~70% accurate predictions as compared to baseline chance accuracy of 50%.
 
 ![Error_rate_over_multiple_trainings](images/training_results.PNG)
 
